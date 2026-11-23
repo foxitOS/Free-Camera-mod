@@ -1,0 +1,8 @@
+name: free-camera-java
+main: freecamera.FreeCameraMod
+displayName: Free Camera Mod
+author: Community
+version: 1.0
+minGameVersion: 160
+hidden: true
+description: Client-side Alt+WASD free camera. Home returns to player.

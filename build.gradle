@@ -1,0 +1,12 @@
+plugins { id 'java' }
+repositories {
+    mavenCentral()
+    maven { url 'https://jitpack.io' }
+}
+dependencies { compileOnly 'com.github.Anuken.Mindustry:core:v160.8' }
+java { toolchain { languageVersion = JavaLanguageVersion.of(17) } }
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }
+jar {
+    from('mod.hjson')
+    archiveFileName = 'free-camera-java.jar'
+}
