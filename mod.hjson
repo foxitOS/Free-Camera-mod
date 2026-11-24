@@ -1,7 +1,7 @@
 name: free-camera-java
 main: freecamera.FreeCameraMod
 displayName: Free Camera Mod
-author: Community
+author: foxit
 version: 1.0
 minGameVersion: 158
 hidden: true
